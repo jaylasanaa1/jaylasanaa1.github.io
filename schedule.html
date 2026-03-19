@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tutoring Schedule | NumberNest</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<header>
+<h1>Live Tutoring Schedule</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="resources.html">Resources</a>
+<a href="schedule.html">Tutoring</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="about.html">Community</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>Upcoming Tutoring Sessions</h2>
+<table>
+<tr>
+<th>Topic</th><th>Date</th><th>Spots</th><th>Action</th>
+</tr>
+<tr>
+<td>Algebra Review</td><td>Monday 4:00 PM</td><td id="spot1">5</td>
+<td><button onclick="joinSession(1)">Join</button></td>
+</tr>
+<tr>
+<td>Geometry Study Group</td><td>Wednesday 5:00 PM</td><td id="spot2">4</td>
+<td><button onclick="joinSession(2)">Join</button></td>
+</tr>
+<tr>
+<td>Calculus Help</td><td>Friday 6:00 PM</td><td id="spot3">3</td>
+<td><button onclick="joinSession(3)">Join</button></td>
+</tr>
+</table>
+<p id="joinMessage"></p>
+</div>
+
+</div>
+</body>
+</html>

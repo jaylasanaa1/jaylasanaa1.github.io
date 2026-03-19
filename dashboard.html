@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard | NumberNest</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<header>
+<h1>Student Dashboard</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="resources.html">Resources</a>
+<a href="schedule.html">Tutoring</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="about.html">Community</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>Your Learning Metrics</h2>
+<p>Lessons Completed</p>
+<h3 id="lessonCount">0</h3>
+<p>Quiz Accuracy</p>
+<h3>0%</h3>
+<p>Study Hours</p>
+<h3 id="hours">0</h3>
+<button onclick="updateStats()">Simulate Study Session</button>
+</div>
+
+<div class="card">
+<h3>Progress by Topic</h3>
+<p>Algebra</p>
+<div class="progress"><div class="bar" id="bar1"></div></div>
+<p>Geometry</p>
+<div class="progress"><div class="bar" id="bar2"></div></div>
+<p>Calculus</p>
+<div class="progress"><div class="bar" id="bar3"></div></div>
+</div>
+
+</div>
+</body>
+</html>

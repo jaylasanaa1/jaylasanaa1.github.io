@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Community | NumberNest</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<header>
+<h1>Student Community</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="resources.html">Resources</a>
+<a href="schedule.html">Tutoring</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="about.html">Community</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>Study Groups</h2>
+<p>Collaborate with peers to learn and solve problems.</p>
+<button onclick="joinGroup('Algebra')">Join Algebra Group</button>
+<button onclick="joinGroup('Geometry')">Join Geometry Group</button>
+<button onclick="joinGroup('Calculus')">Join Calculus Group</button>
+<p id="groupMessage"></p>
+</div>
+
+<div class="card">
+<h2>Leaderboard</h2>
+<table>
+<tr><th>Student</th><th>Points</th></tr>
+<tr><td>Alex</td><td>120</td></tr>
+<tr><td>Jordan</td><td>110</td></tr>
+<tr><td>You</td><td id="p3">95</td></tr>
+</table>
+<button onclick="earnPoints()">Complete Activity (+10)</button>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resources | NumberNest</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Learning Resources</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="resources.html">Resources</a>
+    <a href="schedule.html">Tutoring</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="about.html">Community</a>
+</nav>
+
+<div class="container">
+
+    <!-- Algebra Video Lesson -->
+    <div class="card">
+        <h2>Algebra Video Lesson</h2>
+        <iframe width="100%" height="300"
+            src="https://www.youtube.com/embed/8mve9l5pcnc"
+            title="Algebra Basics Lesson"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <p>Learn the basics of algebra: variables, expressions, and simple equations.</p>
+    </div>
+
+    <!-- Practice Quiz -->
+    <div class="card">
+        <h2>Practice Quiz</h2>
+        <p id="question">Question 1: What is 12 × 8?</p>
+        <button id="btn1" onclick="answer(96)">96</button>
+        <button id="btn2" onclick="answer(108)">108</button>
+        <button id="btn3" onclick="answer(88)">88</button>
+        <p id="feedback"></p>
+    </div>
+
+    <!-- Lesson Progress Tracker -->
+    <div class="card">
+        <h3>Lesson Progress</h3>
+        <ul>
+            <li>Linear Equations</li>
+            <li>Graphing Functions</li>
+            <li>Quadratic Equations</li>
+        </ul>
+        <button onclick="completeLesson()">Mark Lesson Complete</button>
+        <p id="lessonStatus"></p>
+    </div>
+
+</div>
+
+</body>
+</html>
