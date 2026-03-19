@@ -1,0 +1,154 @@
+html {
+scroll-behavior: smooth;
+}
+
+nav a:hover {
+color: white;
+}
+
+button:hover {
+background-color: #e6b94d;
+transform: scale(1.05);
+transition: 0.2s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+transition: 0.3s;} body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4F6F8;
+    color: #1F2A44;
+}
+
+header {
+    background-color: #1F2A44;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #FFC857;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+#home {
+background: linear-gradient(to right, #1F2A44, #243b63);
+color: white;
+}
+button {
+    background-color: #FFC857;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.progress-container {
+    width: 60%;
+    margin: auto;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 20px;
+}
+
+.algebra {
+    width: 85%;
+    background-color: #FFC857;
+}
+
+.geometry {
+    width: 60%;
+    background-color: #FFC857;
+}
+
+.sat {
+    width: 40%;
+    background-color: #FFC857;
+}
+
+footer {
+    background-color: #1F2A44;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+.card {
+width: 90%;
+}
+
+.progress-container {
+width: 90%;
+}
+
+nav a {
+display: block;
+margin: 10px 0;
+}
+}
+top-actions {
+margin: 30px 0;
+text-align: center;
+}
+
+.action-btn {
+background-color: #1F2A44;
+color: white;
+padding: 12px 20px;
+margin: 10px;
+text-decoration: none;
+border-radius: 8px;
+display: inline-block;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.action-btn:hover {
+background-color: #243b63;
+transform: scale(1.05);
+}
+.dashboard-box {
+background-color: white;
+padding: 30px;
+width: 60%;
+margin: 40px auto;
+border-radius: 12px;
+box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+}
+
+.dashboard-box input,
+.dashboard-box select {
+width: 60%;
+padding: 8px;
+}
